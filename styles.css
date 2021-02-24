@@ -23,6 +23,10 @@ body {
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 }
 
+.heading {
+  text-align: center;
+}
+
 .component {
   display: flex;
   justify-content: space-evenly;
@@ -49,7 +53,7 @@ body {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 700px) {
   .container {
     width: 300px;
   }
