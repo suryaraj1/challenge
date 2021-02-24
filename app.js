@@ -6,8 +6,8 @@ const exchangeRate = () => {
   fetch(`https://api.exchangeratesapi.io/latest?base=USD&symbols=INR`)
     .then(response => response.json())
     .then(json => {
-      console.log(json);
       rate.innerHTML = json.rates.INR.toFixed(2);
+      million.value = crore.value * json.rates.INR;
     });
 }
 
