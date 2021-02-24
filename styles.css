@@ -49,4 +49,18 @@ body {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min)
+@media screen and (min-width: 400px) {
+  .container {
+    width: 320px;
+  }
+
+  .component input {
+    width: 150px;
+  }
+
+  .component h2 {
+    margin:0px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
