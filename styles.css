@@ -59,8 +59,11 @@ body {
   }
 
   .component h2 {
-    margin:0px;
+    margin: 0px;
     font-size: 20px;
+    position: relative;
     margin-right: 10px;
+    display: inline-block;
+    white-space: nowrap;
   }
 }
