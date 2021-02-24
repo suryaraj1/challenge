@@ -23,7 +23,7 @@ const rateUpdate = () => {
     .then(response => response.json())
     .then(json => {
       console.log(json);
-      rate.innerHTML = (json.rates.INR);
+      rate.innerHTML = Number(json.rates.INR).toFixed(2);
     })
 }
 
